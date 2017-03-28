@@ -1,0 +1,23 @@
+{
+  "name": "miaoxing/user-log",
+  "description": "Miaoxing User Log Plugin",
+  "keywords": [
+    "miaoxing", "user", "log"
+  ],
+  "license": "MIT",
+  "require": {
+    "miaoxing/app": "dev-master@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Miaoxing\\UserLog\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MiaoxingTest\\UserLog\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
