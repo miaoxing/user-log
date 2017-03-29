@@ -6,7 +6,7 @@
 
 <div class="page-header">
   <h1>
-    用户日志
+    操作日志
   </h1>
 </div>
 
