@@ -4,7 +4,7 @@ namespace Miaoxing\UserLog\Service;
 
 use Miaoxing\Plugin\Service\User;
 
-class UserLog extends \miaoxing\plugin\BaseModel
+class UserLog extends \Miaoxing\Plugin\BaseModel
 {
     /**
      * {@inheritdoc}
