@@ -2,7 +2,7 @@
 
 namespace Miaoxing\UserLog\Controller\Admin;
 
-class UserLogs extends \miaoxing\plugin\BaseController
+class UserLogs extends \Miaoxing\Plugin\BaseController
 {
     public function indexAction($req)
     {
