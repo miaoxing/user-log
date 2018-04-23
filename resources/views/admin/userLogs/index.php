@@ -75,7 +75,7 @@
         {
           data: 'user',
           render: function (data, type, full) {
-            return full.userId == '0' ? '游客' : template.render('user-info-tpl', full.user);
+            return full.userId == '0' ? '-' : template.render('user-info-tpl', full.user);
           }
         },
         {
