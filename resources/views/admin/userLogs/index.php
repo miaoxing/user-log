@@ -11,7 +11,7 @@
 </div>
 
 <div class="row">
-  <div class="col-xs-12">
+  <div class="col-12">
     <div class="table-responsive">
       <form class="js-log-form form-horizontal filter-form" role="form">
 
