@@ -66,7 +66,7 @@
 
 <?= $block->js() ?>
 <script>
-  require(['plugins/admin/js/data-table', 'form', 'plugins/admin/js/date-range-picker'], function () {
+  require(['plugins/admin/js/data-table', 'plugins/admin/js/form', 'plugins/admin/js/date-range-picker'], function () {
     var $recordTable = $('.js-log-table').dataTable({
       ajax: {
         url: $.queryUrl('admin/user-logs.json')
