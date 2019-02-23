@@ -118,7 +118,11 @@
     // 发放红包
     $recordTable.on('click', '.js-confirm', function () {
       var id = $(this).data('id');
-      $.confirm('确认该操作?', function () {
+      $.confirm('确认该操作?', function (result) {
+        if (!result) {
+          return;
+        }
+
         $.ajax({
           url: $.queryUrl('admin/user-logs/%s/confirm.json', id),
           dataType: 'json'
