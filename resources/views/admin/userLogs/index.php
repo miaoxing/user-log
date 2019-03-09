@@ -118,7 +118,7 @@
     // 发放红包
     $recordTable.on('click', '.js-confirm', function () {
       var id = $(this).data('id');
-      $.confirm('确认该操作?', function (result) {
+      $.confirm('确定该操作?', function (result) {
         if (!result) {
           return;
         }
